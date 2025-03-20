@@ -1,0 +1,39 @@
+.nav{
+    display: block; /*takes up the full line on screen with a new-line after it*/
+    width: 100%; /* defines the total width it will take across the page*/
+    font-family: "Lato", sans-serif;  
+}
+
+nav ul{
+ /*   background-color: #b0b0b0; */
+    background-color: rgb(69, 81, 111);
+    padding-bottom: 5px;
+    padding-top:5px;
+    }
+
+nav ul li{
+    display:inline-block; /*display the items across one line side by side*/
+    margin-left:30px; /*make a margin to allow a picture-logo to be located*/
+   /* border-right: 1px solid #0e0d0d; /*draw a line border on each side of the text*/
+   /* border-left: 1px solid #0e0d0d; */
+}
+
+nav li a{
+
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.10em;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a.active{
+    background-color: rgb(3, 118, 160);
+}
+
+nav a:hover{
+    background-color:rgb(14, 31, 58);
+    font-weight: bold;
+    font-size: 18px;
+}

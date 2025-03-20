@@ -1,0 +1,37 @@
+ul.topnav {
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(253, 122, 0);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+ul.topnav li {display: inline-block;}
+
+ul.topnav li a {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.20em;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(14, 31, 58);}
+
+ul.topnav li a.active {background-color: rgb(3, 118, 160);}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
